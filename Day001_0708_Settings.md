@@ -6,10 +6,12 @@ VS Code 터미널에서 파이썬 파일을 바로 접근했을 때 제대로 �
   경로 추가를 하지 않아서 그렇게 됨
    
    설정 전
-   
+
    <br>
-   ![설정 전](https://imgur.com/8BhGTF2.png)
    
+   ![설정 전](https://imgur.com/8BhGTF2.png)
+
+   <br>
    환경 변수 설정 전에는 .py 파일이 실행되지 않고 Python이라고 뜸
 
 ## 3. 배운점(Lesson Learned)
