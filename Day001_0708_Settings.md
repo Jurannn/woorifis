@@ -17,19 +17,31 @@ VS Code 터미널에서 파이썬 파일을 바로 접근했을 때 제대로 �
 ## 3. 배운점(Lesson Learned)
 1. VS Code 환경 설정
 환경 설정에 있어서 경로가 중요함을 알게 되었음
-     시스템 속성 > 환경 변수 > 시스템 변수 > Path에 python 설치 경로 추가
-    ![설정](https://imgur.com/gMgy8pX.png)
-    설정 후
-    ![설정 후](https://imgur.com/Y586kae.png)
 
-2. 코랩 단축키
+<br>
+
+시스템 속성 > 환경 변수 > 시스템 변수 > Path에 python 설치 경로 추가
+     
+<br>
+
+![설정](https://imgur.com/gMgy8pX.png)
+
+<br>
+설정 후
+
+<br>
+
+![설정 후](https://imgur.com/Y586kae.png)
+
+
+3. 코랩 단축키
     <특정 셀 선택>
         - shift + 클릭 : 특정 셀부터 특정 셀까지 연속해서 선택
          - ctrl + 클릭 : 특정 셀 부분적으로 선택
 
-3. 마크다운 문법
+4. 마크다운 문법
 
-4. 유용한 사이트
+5. 유용한 사이트
     - imgur : img2url + 확장자 붙여야 함
     - 뤼튼 : 이미지 생성
 
