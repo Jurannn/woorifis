@@ -30,8 +30,15 @@ match 변수(값):
 5. 비트 연산자 vs 논리 연산자
      1. 파이썬에서 논리 연산자 사용하기.
      2. 비트 연산자 : 연산 대상을 비트(bit)로 변환한 후 연산 수행
+          - 1|2|3의 비트 연산 : (1|2)|3 == 0001|0010|3 => 0011|3 =>  0011|0011 => 0011 => 3 return
+          - 1 or 2 or 3의 논리 연산 : 1 return (by circuit evaluation)
+       
+            
+6. short-circuit evalution(단락 평가)
+       1. 1 or 2 or 3 #True or ... 이므로 1을 return
+       2. 0 or 2 or 3 #False or True .. 이므로 2를 return
 
-6. flag 변수
+7. flag 변수
      1. 깃발을 올리고 내리듯이 참과 거짓으로 무엇인가를 판단할 때 사용할 수 있는 변수
 ```python
 flag = True
@@ -41,7 +48,7 @@ else :
   print('false)
 ```
 
-7. 딕셔너리 - iterable ==> for문에 사용 가능~~~!! (key 중심)
+8. 딕셔너리 - iterable ==> for문에 사용 가능~~~!! (key 중심)
 ```python
 #딕셔너리도 iterable!! __iter__
 for fruit in fruits:
@@ -51,7 +58,43 @@ for fruit in fruits:
 #value만 출력
 for fruit in fruits:
   print(fruits[fruit])
+
+#key-value
+for key, value in fruits.items():
+  print(key + ' - ' + value)
+#
  ```
+
+9. while문의 continue
+```python
+#아래 코드는 무한반복과 동일
+
+n = 1
+while n <= 10:
+  if n % 2 == 0:
+    print(n)
+  else :
+    continue #만나면 한 번만 넘어감
+  i += 1
+```
+
+```python
+n = 1
+while n <= 10:
+  i += 1
+  if n % 2 == 0:
+    continue
+  print(i)
+```
+
+10. 바다코끼리 연산자
+```python
+cnt, output = 0, 0
+while (cnt := cnt + 1) < 20:
+  #:=는 바다 코끼리 연산자, 값을 할당 하면서 동시에 사용하는 연산자
+  output += cnt if cnt % 3 == 0 else 0
+print(output)
+```
 
 ## 3. 배운점(Lesson Learned)
 1. 라인 순서에 따라 값이 크게 달라지는 것을 보며 파이썬은 인터프리터 언어임을 다시 한 번 되새길 수 있었다.
