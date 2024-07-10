@@ -43,7 +43,13 @@
         - 딕셔너리의 기본 메소드들은 보통 key를 중심으로 동작함
         - key가 없는 경우, dict1['key']의 경우 error 발생 -> dict1.get('key')로 에러 방지 가능!!
         - key 중복 불가 -> 중복으로 생성하면 기준 value 값이 변경됨
+        - cf. getter : 값을 가져오는 함수 → return 값 존재
+        - cf. setter : 값을 변경하는 함수 → return 값 없음
+        - dict2.get(’없는 키’, ‘찾으시는 정보가 없습니다.’) ⇒ KeyError 방지 가능, getter이므로 dict2의 값을 변경하지 않음
+        - dict2.setdefaoul(’없는 키’, ‘밸류’) ⇒ KeyError 방지 + setter 이므로 dict2에 {’없는 키’ : ‘밸류’} 쌍을 추가한다. 즉, dict2의 값을 변경함
     3. 집합형 : 키만으로 자료를 관리
+        -  hashable elements만 가질 수 있음 ; 원소로 list 가질 수 없다.
+        -  ‘set’ objectt is not subscriptable ; 인덱싱/슬라이싱 불가능
 
 10. 복사
     1. 얕은 복사 : "같은 주소(자리)"에 다른 변수명을 지정 -> 원본 훼손 가능성
