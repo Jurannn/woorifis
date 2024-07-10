@@ -42,7 +42,7 @@ else :
 ```
 
 7. 딕셔너리 - iterable ==> for문에 사용 가능~~~!! (key 중심)
-   ```python
+```python
 #딕셔너리도 iterable!! __iter__
 for fruit in fruits:
   print(fruit) #key를 출력!!
@@ -51,7 +51,7 @@ for fruit in fruits:
 #value만 출력
 for fruit in fruits:
   print(fruits[fruit])
-   ```
+ ```
 
 ## 3. 배운점(Lesson Learned)
 1. 라인 순서에 따라 값이 크게 달라지는 것을 보며 파이썬은 인터프리터 언어임을 다시 한 번 되새길 수 있었다.
