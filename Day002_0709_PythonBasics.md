@@ -42,7 +42,7 @@
         - 딕셔너리 {'key':'value'}
         - 딕셔너리의 기본 메소드들은 보통 key를 중심으로 동작함
         - key가 없는 경우, dict1['key']의 경우 error 발생 -> dict1.get('key')로 에러 방지 가능!!
-        - key 중복 불가 -> 중복으로 생성하면 기준 value 값이 변경됨
+        - key 중복 불가 -> 중복으로 생성하면 기존 value 값이 변경됨
         - cf. getter : 값을 가져오는 함수 → return 값 존재
         - cf. setter : 값을 변경하는 함수 → return 값 없음
         - dict2.get(’없는 키’, ‘찾으시는 정보가 없습니다.’) ⇒ KeyError 방지 가능, getter이므로 dict2의 값을 변경하지 않음
