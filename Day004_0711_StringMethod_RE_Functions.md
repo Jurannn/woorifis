@@ -6,7 +6,7 @@
 
 - 메소드를 활용해 불필요한 반복문을 줄일 수 있다.
 - 파라미터 = argument(인자)
-    - str1.split(sep = '/', maxsplit = 2)
+    - `str1.split(sep = '/', maxsplit = 2)`
         - sep ; 파라미터
         - ‘/’ ; 인자
     - 파라미터를 명시하면 순서대로 안써도 됨
@@ -66,8 +66,9 @@
 
 ## 2. 정규식(Regular Expression)
 
-- [https://velog.io/@bbkyoo/Logstash-grok-필터-와-정규식-정리](https://velog.io/@bbkyoo/Logstash-grok-%ED%95%84%ED%84%B0-%EC%99%80-%EC%A0%95%EA%B7%9C%EC%8B%9D-%EC%A0%95%EB%A6%AC)
-- [https://regex101.com/](https://regex101.com/)
+- 참고 사이트
+    - [https://velog.io/@bbkyoo/Logstash-grok-필터-와-정규식-정리](https://velog.io/@bbkyoo/Logstash-grok-%ED%95%84%ED%84%B0-%EC%99%80-%EC%A0%95%EA%B7%9C%EC%8B%9D-%EC%A0%95%EB%A6%AC)
+    - [https://regex101.com/](https://regex101.com/)
 
 - 실행 방법
     - 함수로 실행
@@ -142,7 +143,8 @@
 
 ## 3. 문자열 포맷팅
 
-[https://pyformat.info/](https://pyformat.info/)
+- 참고 사이트
+    - [https://pyformat.info/](https://pyformat.info/)
 
 1. f-string
     
