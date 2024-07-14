@@ -4,11 +4,11 @@
 
 - *args ; 순서대로 인자를 받음 ⇒ 한 묶음(튜플)로 받음
 **kwargs ; key-value 형식으로 값을 전달 (파라미터-아규먼트 순서) ⇒ 한 묶음(딕셔너리)로 받음
+    ![Untitled](https://github.com/user-attachments/assets/cfdedf53-a5b5-40c4-abf1-e30fd474f8f4)
     
-    ![Untitled 1](https://github.com/user-attachments/assets/472e3e19-3066-4d3a-a0f9-c594888c7b69)
 
 - return은 하나의 결과를 반환 + return 뒤의 코드는 실행되지 않음
-    ![Untitled](https://github.com/user-attachments/assets/cfdedf53-a5b5-40c4-abf1-e30fd474f8f4)
+    ![Untitled 1](https://github.com/user-attachments/assets/472e3e19-3066-4d3a-a0f9-c594888c7b69)
 
 
 - argument 순서
@@ -19,13 +19,17 @@
         1. keyword argument ; 순서 대신 parameter 이름으로 맞추어서 값을 전달 → parameter 순서가 바뀌어도 됨
     4. **kwargs(variable length keyword arguments)
     
-    ![Untitled](240712%20-%20%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE%20%E1%84%86%E1%85%A9%E1%84%83%E1%85%B2%E1%86%AF%20%E1%84%91%E1%85%A2%E1%84%8F%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%8B%E1%85%A8%E1%84%8B%E1%85%AC%E1%84%8E%E1%85%A5%E1%84%85%E1%85%B5%203185f210546e40799a315662cfab05f1/Untitled%202.png)
+
+    ![Untitled 2](https://github.com/user-attachments/assets/be7e8fb2-0e18-4abd-8efd-472ab6fbd178)
+
     
 - isinstance(data, type)
     - type(data)가 type과 일치하는지 True/False로 반환
 - 조기return
     
-    ![Untitled](240712%20-%20%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE%20%E1%84%86%E1%85%A9%E1%84%83%E1%85%B2%E1%86%AF%20%E1%84%91%E1%85%A2%E1%84%8F%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%8B%E1%85%A8%E1%84%8B%E1%85%AC%E1%84%8E%E1%85%A5%E1%84%85%E1%85%B5%203185f210546e40799a315662cfab05f1/Untitled%203.png)
+
+    ![Untitled 3](https://github.com/user-attachments/assets/5df6b5c8-d91e-46f3-8401-3b6c9e8de736)
+
     
 - unpacking
     
@@ -35,14 +39,18 @@
     [*filter(lambda i : i%2 == 0, li)] #unpacking
     ```
     
-    ![Untitled](240712%20-%20%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE%20%E1%84%86%E1%85%A9%E1%84%83%E1%85%B2%E1%86%AF%20%E1%84%91%E1%85%A2%E1%84%8F%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%8B%E1%85%A8%E1%84%8B%E1%85%AC%E1%84%8E%E1%85%A5%E1%84%85%E1%85%B5%203185f210546e40799a315662cfab05f1/Untitled%204.png)
+
+    ![Untitled 4](https://github.com/user-attachments/assets/d8085bb2-c5b6-446e-80e8-027bab0bdab5)
+
     
 - 파이썬의 데이터 구조
     - 주소(id)의 값이 큼/작음
     - Stack : 함수 호출하면 생성되고 실행이 완료되면 소멸, 후입선출
     - Heap : 동적 할당으로 생성
     
-    ![Untitled](240712%20-%20%E1%84%92%E1%85%A1%E1%86%B7%E1%84%89%E1%85%AE%20%E1%84%86%E1%85%A9%E1%84%83%E1%85%B2%E1%86%AF%20%E1%84%91%E1%85%A2%E1%84%8F%E1%85%B5%E1%84%8C%E1%85%B5%20%E1%84%8B%E1%85%A8%E1%84%8B%E1%85%AC%E1%84%8E%E1%85%A5%E1%84%85%E1%85%B5%203185f210546e40799a315662cfab05f1/Untitled%205.png)
+
+    ![Untitled 5](https://github.com/user-attachments/assets/a1dcfd3d-fd91-4631-ba76-af2d751350ff)
+
     
 - 함수 내에 지역 변수 넣는 방법
     - 함수 안에서는 원래 지역변수가 전역변수에 우선
