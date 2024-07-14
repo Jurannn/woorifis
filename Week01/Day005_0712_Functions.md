@@ -4,10 +4,12 @@
 
 - *args ; 순서대로 인자를 받음 ⇒ 한 묶음(튜플)로 받음
 **kwargs ; key-value 형식으로 값을 전달 (파라미터-아규먼트 순서) ⇒ 한 묶음(딕셔너리)로 받음
+
     ![Untitled](https://github.com/user-attachments/assets/cfdedf53-a5b5-40c4-abf1-e30fd474f8f4)
     
 
 - return은 하나의 결과를 반환 + return 뒤의 코드는 실행되지 않음
+
     ![Untitled 1](https://github.com/user-attachments/assets/472e3e19-3066-4d3a-a0f9-c594888c7b69)
 
 
